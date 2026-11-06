@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #26332f;
+  background: #f8f7f2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --eucalyptus: #245c50;
+  --teal: #2f8177;
+  --teal-dark: #226c63;
+  --sage: #e7f1ec;
+  --ivory: #f8f7f2;
+  --white: #fff;
+  --charcoal: #26332f;
+  --muted: #68756f;
+  --subtle: #89948e;
+  --border: #e2e8e3;
+  --gold: #c9a96e;
+  --danger: #b42332;
+  --warning: #b76e18;
+  --success: #26734d;
+  --info: #356b9a;
+  --shadow: 0 2px 8px rgba(35, 56, 47, .035), 0 1px 2px rgba(35, 56, 47, .025);
+  font-optical-sizing: auto;
+}
+
+
+/* VynelixAI branding */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  width: 56px;
+  height: 44px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand-title {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.brand-title strong {
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.brand-title small {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
